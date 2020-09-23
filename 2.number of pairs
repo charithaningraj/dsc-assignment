@@ -1,0 +1,9 @@
+from collectios import counter
+num=input("enter total of gloves")
+print("enter colour")
+arr=list(map(int,input().split()))
+sum=0
+n=counter(arr)
+for i in n.values():
+sum+=(i//2)
+print(sum)
