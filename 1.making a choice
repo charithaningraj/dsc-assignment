@@ -1,0 +1,9 @@
+i=input()
+thriller=["dark","mindhunter","parasite","money heist","jack ryan","insidiours"]
+comedy=["friends","3 idiots","how i met ur mother",the big bang theory"]
+if i.lower() in thriller:
+ print("it is a thriller")
+elif i.lower() in comedy:
+ print("it is a comedy")
+else:
+print("its neither comedy nor thriller")
